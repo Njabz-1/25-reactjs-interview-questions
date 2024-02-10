@@ -17,13 +17,13 @@ const data = [
   },
   {
     id: '4',
-    question: "What are they used for?Can I create an accordion with a different framework?",
+    question: "Can I create an accordion with a different framework?",
     answer: "Yes of course, it is very possible to create an accordion component with another framework."
   },
   {
     id: '5',
-    question: "What are they used for?",
-    answer: ""
+    question: "When not to use an Accordion?",
+    answer: "When readers will need to click on the majority of the items or when you don't have the resource to make them accessible."
   }
 ];
 
