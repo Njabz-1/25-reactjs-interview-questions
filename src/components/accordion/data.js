@@ -12,7 +12,7 @@ const data = [
   },
   {
     id: "3",
-    question: "Accordion as a muscial instrument",
+    question: "Accordion as a muscial instrument?",
     answer: "Accordions are a family of box-shaped musical instruments of the bellows-driven free reed aerophone"
   },
   {
