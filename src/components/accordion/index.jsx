@@ -30,10 +30,16 @@ export default function Accordion() {
             setMultiple(cpyMultiple);
     }
         console.log(selected,multiple);
+
+    function handleModeChange(){
+        setEnableMultiSelection(!enableMultiSelection);
+
+        setSelected(null);
+        setMultiple([]);
+    }
     return(
         <div className="wrapper">
-            <button onClick={() =>
-                 setEnableMultiSelection(!enableMultiSelection)}>Enable Multi Selection</button>
+            <button onClick={handleModeChange}>Enable {enableMultiSelection ? 'Single' :'Multi'} Selection</button>
         <div className="accordion">
         {
             data && data.length > 0 ? 
